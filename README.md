@@ -1,7 +1,8 @@
 # Reflexia Python SDK
 
-[![PyPI version](https://badge.fury.io/py/reflexia.svg)](https://badge.fury.io/py/reflexia)
+[![PyPI version](https://badge.fury.io/py/reflexia.svg)](https://pypi.org/project/reflexia/)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![PyPI downloads](https://img.shields.io/pypi/dm/reflexia)](https://pypi.org/project/reflexia/)
 
 **Python SDK for Reflexia API** - Quantum Coordination Infrastructure for Autonomous Agent Swarms
 
@@ -566,12 +567,27 @@ Then agents needed to learn from past decisions. That's when the pattern store w
 
 ## Quick Start
 
+**Install from PyPI:**
+```bash
+pip install reflexia
+```
+
 This SDK is a convenience wrapper around the Reflexia REST API. The actual value (field computation, state persistence, multi-tenancy) runs on Reflexia's backend infrastructure at `api.reflexia.io`.
 
 ## Installation
 
+Install from PyPI:
+
 ```bash
 pip install reflexia
+```
+
+**Available on PyPI:** https://pypi.org/project/reflexia/
+
+For development, install with test dependencies:
+
+```bash
+pip install reflexia[dev]
 ```
 
 ## Basic Usage
@@ -776,9 +792,10 @@ For x402 payment authentication, you'll need to include the payment header manua
 
 ## Documentation
 
+- **PyPI Package**: https://pypi.org/project/reflexia/
 - **API Reference**: https://reflexia.dev/docs
 - **Website**: https://reflexia.dev
-- **GitHub**: https://github.com/reflexia/reflexia-python-sdk
+- **GitHub**: https://github.com/AaronVick/reflexia-python-sdk
 
 ## License
 
