@@ -9,6 +9,7 @@ description = "Python SDK for Reflexia API - Quantum Coordination Infrastructure
 readme = "README.md"
 requires-python = ">=3.8"
 license = {text = "MIT"}
+license-files = ["LICENSE"]
 authors = [
     {name = "Reflexia", email = "support@reflexia.dev"}
 ]
@@ -43,8 +44,8 @@ dev = [
 [project.urls]
 Homepage = "https://reflexia.dev"
 Documentation = "https://reflexia.dev/docs"
-Repository = "https://github.com/reflexia/reflexia-python-sdk"
-Issues = "https://github.com/reflexia/reflexia-python-sdk/issues"
+Repository = "https://github.com/AaronVick/reflexia-python-sdk"
+Issues = "https://github.com/AaronVick/reflexia-python-sdk/issues"
 
 [tool.setuptools]
 packages = ["reflexia"]
